@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>小米账号-注册</title>
+        <link rel="icon" href="https://s01.mifile.cn/favicon.ico" />
+        <link rel="stylesheet" href="css/registerset.css" />
+        <link rel=" stylesheet" href="css/iconfont.css" />
+    </head>
+
+    <body>
+        <!-- 表单s -->
+        <div class="wrap">
+        <form name="register-form" action="" method="POST">
+            <div class="form-container">
+                <div class="head">
+                    <div class="head-container">
+                        <div class="logo">
+                            <a  href="index.html"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-box">
+                    <div class="main-box-container">
+                        <div class="main-title">
+                            <h1>注册</h1>
+                            <h2>注册新的账号</h2>
+                            <div class="right-content">
+                                <a class="login" href="">登录</a>
+                                <span>|</span>
+                                <span>简体中文（中国）</span>
+                            </div>
+                        </div>
+                        <div class="main-content">
+                            <div class="main-content-container">
+                                <div class="register-online">
+                                    <div class="text">
+
+                                        账号
+
+                                        <span class="symbol">*</span>
+                                    </div>
+                                    <input type="text" name="register-userId" id="" size="30" required value onblur="hideTip">
+                                </div>
+                                <div class="register-online">
+                                    <div class="text">
+
+                                        电子邮箱
+
+                                        <span class="symbol">*</span>
+                                    </div>
+                                    <input type="text" name="register-userEmail" id="" size="30" value onblur="hideTip">
+                                </div>
+                                <div class="register-online">
+                                    <div class="text">
+
+                                       密码
+
+                                        <span class="symbol">*</span>
+                                    </div>
+                                    <input type="password" name="register-userCode" id="" size="30" value onblur="hideTip">
+                                </div>
+                                <div class="register-online">
+                                    <div class="text">
+
+                                        姓
+
+                                        <span class="symbol">*</span>
+                                    </div>
+                                    <input type="text" name="register-userSurname" id="" size="30" value onblur="hideTip">
+                                </div>
+                                <div class="register-online">
+                                    <div class="text">
+
+                                        名
+
+                                        <span class="symbol">*</span>
+                                    </div>
+                                    <input type="text" name="register-userName" id="" size="30" value onblur="hideTip">
+                                </div>
+                                <div class="register-online">
+                                    <div class="text">
+
+                                        国家/地区
+
+                                        <span class="symbol">*</span>
+                                    </div>
+                                    <select name="registerAddress" id="Address" >
+                                        <option value="--请选择--">--请选择--</option>
+                                        <option value="中国" selected>中国</option>
+                                        <option value="美国">美国</option>
+                                        <option value="英国">英国</option>
+                                        <option value="法国">法国</option>
+
+                                    </select>
+                                </div>
+                                <div class="register-online">
+                                    <div class="text">
+
+                                        联系电话
+
+                                        <span class="symbol">*</span>
+                                    </div>
+                                    <input type="text" name="register-userCountrycode" id="conutrycode" value="+86">
+                                    <input type="text" name="register-userPhone" id="userPhone" size="30" value onblur="hideTip">
+                                    <br>
+                                    <div class="radio-btn">
+                                    <input  type="radio" id="identifying" value="identifying"> 
+                                    <span class="content1">验证手机号</span>
+                                    <span class="content2">(经过验证的手机号可以用于登录或重置密码、修改密码)</span>
+                                   
+                                </div>
+                                </div>
+                                <br>
+                                <div class="register-online">
+                                    <div class="text">
+
+                                        验证码
+
+                                        <span class="symbol">*</span>
+                                    </div>
+                                    <input type="text" name="register-userVerification-code" id="Verification-code" size="30" value onblur="hideTip">
+                                    <img src="xiaomi_image/randomcode.jpg" alt="" width="115px" height="30px">
+                                    <button type="button">换一张</button>
+                                    <br>
+                                    <div class="radio-btn">
+                                    <input  type="radio" id="identifying" value="identifying"> 
+                                    <span class="symbol">*</span>
+                                <span class="content2">我已阅读并同意华为公司用户注册协议和隐私声明</span>
+                                </div>
+                            </div>
+                               <div class="submit-btn">
+                                  <input class="submit" type="button" style="margin: 15px 0 0 176px" value="注册">
+                               </div>
+                            </div>
+                            <div class="bottem-content">
+                                <img src="xiaomi_image/slogan.png" alt="">
+                            </div>
+                        </div>
+
+                        <!-- 页脚s -->
+                        <div class="foot-content">
+                                <div class="first-line">
+                                    <ul class="first-line-lists">
+                                        <li class="list"><a class="a-content" href="#">简体</a>
+                                            |</li>
+                                        <li class="list"><a class="a-content" href="#">繁体</a>
+                                            |</li>
+                                        <li class="list"><a class="a-content" href="#">English</a>
+                                            |</li>
+                                        <li class="list"><a class="a-content" href="#">常见问题</a>
+                                            |</li>
+                                        <li class="list"><a class="a-content" href="#">隐私政策</a>
+                                            </li>
+                                    </ul>
+                                </div>
+                                <p class="last-line">
+                                        小米公司版权所有-京ICP备10046444-
+                                        <a href="#"><span>
+                                            <!-- <img src="xiaomi_image/公安.png" alt=""> -->
+                                        </span>
+                                        
+                                        
+                                        京公网安备11010802020134号
+                                    </a>
+                                    -京ICP证110507号
+                                </p>
+                            </div>
+                        <!-- 页脚e -->
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+        <!-- 表单e -->
+    </body>
+
+</html>

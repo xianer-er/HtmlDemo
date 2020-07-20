@@ -1,0 +1,368 @@
+.xiaomiCC9 .sliding-door-content {
+    background: white;
+    color: black;
+    border: 1px solid #ff6600;
+}
+
+.sliding-door-content .link1 {
+    color: black;
+}
+
+.sliding-door-content .link1:hover {
+    color: white;
+}
+
+.line {
+    border: 1px solid #e0e0e0;
+    width: 1906px;
+    margin-top: -3px;
+}
+
+.sliding-door-hidden .door-hidden {
+    margin-top: 98px;
+    margin-left: -89px;
+}
+
+.head-nav .nav-list:first-child:hover .sliding-door-hidden {
+    display: block;
+}
+
+.xiaomiCC9 .sliding-door-hidden {
+    background-color: white;
+    margin-left: -120px;
+    margin-top:85px;
+    display: none;
+}
+
+.f-header {
+    height: 95px;
+    width: 1520px;
+}
+
+.f-header-container {
+    /* position: fixed; */
+    z-index: 999;
+    width: 1226px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: white;
+}
+.left-text,
+.symbol,
+.link,
+h2 {
+    float: left;
+    margin-left: 5px;
+}
+
+.left-text .link {
+    color: #616161;
+    font-size: 12px;
+}
+
+.right-text .link {
+    color: #212121;
+}
+
+.symbol {
+    margin-top: 25px;
+    color: #e0e0e0;
+}
+
+.right-text {
+    float: right;
+    font-size: 15px;
+}
+
+.right-text .a-button {
+    color: #fff;
+    margin-left: 5px;
+    vertical-align: inherit;
+    background: #ff6700;
+    /* border-color: #ff6700; */
+}
+
+.right-text .a-box {
+    font-size: 15px;
+    width: 118px;
+    height: 28px;
+    padding: 0;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sliding-around-container {
+    position: relative;
+    height: 840px;
+    width: 1266px;
+    margin: 0 auto;
+ 
+}
+.sliding-around-desc{
+    font-weight: lighter;
+    font-size: 23px;
+    margin-top: -20px;
+    color: white;
+}
+.sliding-around-price{
+    font-weight: 500;
+    color: #ff6600;
+    margin-top: -20px;
+    margin-left: 100px;
+}
+.sliding-around-title{
+    font-size: 65px;
+    color: white;
+}
+.sliding-around-text {
+    text-align: center;
+    z-index: 999;
+    position: absolute;
+    margin-left: 450px;
+}
+
+.imgs {
+    position: absolute;
+    width: 1266px;
+    height: 840px;
+    margin: 0 auto;
+}
+.imgs-container{
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%; 
+    background-size: auto 100%;
+    background-image: url("intro-1.jpg");
+    animation: move 10s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes move{
+   0%{
+        background-image: url("intro-1.jpg");
+
+      }
+      25%{
+        background-image: url("intro-2.jpg");
+      }
+     50%{
+        background-image: url("intro-3.jpg");
+    }
+    100%{
+        background-image: url("intro-1.jpg");
+    }
+
+}  
+.micc9-index{
+height: 400px;
+position: relative;
+-webkit-font-smoothing: antialiased;
+}
+.video{
+    position: relative;;
+    display: block;
+    /* margin: 0 auto; */
+}
+.video-container{
+    position: relative;
+    width: 1226px;
+    height: 394px;
+    margin: 0 auto;
+
+}
+.oneimg{
+position: relative;
+    background: url("焕然一新.png") no-repeat;
+    background-size: auto 100%;
+   margin: 100px;
+width: 1278px;
+    height: 320px; 
+}
+.sliding-around-second{
+    width: 1226px;
+    height: 660px;
+    margin: 0 auto;
+}
+.sliding-around-second-container{
+    position: relative;
+   
+    background-size: auto 100%;
+    background-image: url("color-1.jpg");
+   width: 100%;
+   height: 100%;
+   animation: move2 10s;
+   animation-iteration-count:infinite;
+}
+@keyframes move2{
+    0%{
+         background-image: url("color-1.jpg");
+        
+       }
+       25%{
+         background-image: url("color-2.jpg");
+       }
+      50%{
+         background-image: url("color-3.jpg");
+     }
+     100%{
+         background-image: url("color-1.jpg");
+     }
+ 
+ } 
+.icon-text{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-left: 500px;
+}
+.icon-text h3{
+    float: left;
+    margin:auto 30px ;
+}
+.i-text1{
+  background-size: 100% 100%;
+background-image:url("color-btn1.png");
+}
+.i-text2{
+    background-size: 100% 100%;
+  background-image:url("color-btn2.png");
+  }
+  .i-text3{
+    background-size: 100% 100%;
+  background-image:url("color-btn3.png");
+  }
+  .sliding-around-third-text{
+      height: 231px;
+      margin-left: 500px;
+
+  }
+  .sliding-around-third{
+      margin-top: 50px;
+    background: linear-gradient(#fee9e9, #fcecf2);
+    height: 1840px;
+    width: 1226px;
+   margin-left: 135px;
+  }
+  .sliding-around-third-text .h-title{
+      width: 948px;
+height: 156px;
+font-size: 40px;
+font-weight: 500;
+  }
+.sliding-around-third-text .p-desc{
+  height: 56px;
+ color: #616161;
+ font-size: 15px;
+ }
+.sliding-around-third-imgs{
+    position: relative;
+    overflow: hidden;
+    height: 440px;
+    width: 1226px;
+margin-top: 50px;
+
+}
+.J_photo{
+    position: absolute;
+    left: 0;
+    width:3960px;
+    animation: move3 10s linear infinite;
+}
+@keyframes move3{
+    0%{
+      transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
+@keyframes move3{
+    0%{
+      transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
+.silder{
+    margin-left: 20px;
+    width: 330px;
+    float: left;
+    height: 440px;
+}
+.sliding-around-third-img{
+    margin-top: 50px;
+}
+.text-img{
+    position: relative;
+    width: 1226px;
+    height: 335px;
+    display: block;
+    margin-left: 135px;
+}
+.-text{
+    width:50%;
+    height: 335px;;
+    overflow: hidden;
+    float: left;
+}
+.-text h2{
+    text-align: center;
+    margin: 100px 100px;
+}
+.-img{
+    width:50%;
+    height: 335px;
+    float: left;
+    overflow: hidden;
+}
+.xiaomicc9-text-list{
+    text-decoration: none;
+    list-style-type: none;
+    width: 100%;
+    height: 52px;;
+}
+.xiaomicc99{
+    position: relative;
+    margin-left: 135px;
+   
+}
+.xiaomicc9-text{
+    margin-left: 135px;
+    margin: 0 auto;
+    width: 1226px;
+    height: 802px;
+    background-size: auto 100%;
+    background-image:url("specsgroup.jpg");
+} 
+.xiaomicc9-text-list h2{
+    margin-left: 50px;
+    font-weight: 300;
+    font-size: 15px;
+}
+.xiaomicc9-text-list{
+    margin-left: 200px;
+}
+.list1{
+    margin-top: 560px;
+    
+    width: 1226px;
+    height: 53px;;
+}
+.h2-desc{
+    font-weight: 400;
+    margin-left: 500px;
+}
+.xiaomicc9-text h1{
+margin-left: 500px;
+}
+.view-parameters-text{
+    margin-left: 210px;
+    width: 1226px;
+    height: 144px;;
+    background-size: auto 100%;
+    background-image: url("next.jpg");
+}

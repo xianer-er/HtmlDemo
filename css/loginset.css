@@ -1,0 +1,206 @@
+/* 对于标题的设置 */
+.head{
+    width:750px;
+    height: 98px;
+    display: flex;
+
+}
+.head-container{
+  width: 1130px;
+  margin: 0 auto;
+    display: flex;
+
+}
+.wrapper{
+    display: flex;
+    width: 1903px;
+    height: 969px;
+}
+.logo a{
+    display: block;
+    height: 98px;
+    text-indent: -9999em;         /*缩进元素中文本的首行*/
+}
+.logo{
+  width: 200px;
+  height: 98px;
+  background: url("mistore_logo.png");
+  margin: 0 auto;
+} 
+/* 对标题设置结束，开始对主页面设置 */
+.container{
+    background: url("login-background.jpg");
+    width: 100%;
+    height: 588px;
+    position: absolute;
+    left: 0;
+    top: 98px;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.wrap .container a{
+    display: block;
+    text-indent: -9999em;
+    height: 588px;
+}
+.form{
+    padding-top: 130px;
+    width: 1130px;
+    margin: 0 auto;
+}
+.form-container{
+    width: 410px;
+    height: 524px;
+    position: relative;
+    background-color: white;
+    margin: 0 auto 20px;
+}
+.form-title{
+padding-top: 25px;
+    text-align: center;
+    font-size: 25px;
+}
+.nav-title-t{
+    text-decoration: none;
+    color: black;
+}
+.nav-title .nav-title-t:hover{
+    color: #ff9019;
+}
+.nav-title :first-child
+{
+    color: #ff9019;
+}
+.line{
+    padding-left: 35px;
+    padding-right: 35px;
+    color: #c5c4c4;
+}
+.login{
+    /* margin-top: 20px; */
+    width: 348px;
+    margin: 35px auto;
+}
+.form-con .label-box{
+/* border:1px solid #e0e0e0; */
+width: 346px;
+height: 48px;
+margin-bottom: 14px;
+display:block;
+}
+#login-main-form{
+    width: 348px;
+    height: 256px;
+    margin-bottom: 20px;
+}
+#login-main-form input{
+    height: 48px; 
+     width: 346px;
+
+    /* padding: 13px 16px 13px 14px; */
+}
+#submit{
+    background-color: #ff6700;
+width: 100%;
+height: 50px;
+line-height: 50px;
+display: block;
+margin-top: 50px;
+margin-bottom: 14px;
+text-align: center;
+font-size: 14px;
+color: #fff;
+cursor: pointer;
+}
+.sms-link{
+    text-decoration: none;
+    color: #ff6700;
+    border: 0 none;
+    height: auto;
+    line-height: normal;
+    margin: 0;
+}
+.links-area{
+    float: right;
+}
+.outer-link{
+    color: #757575;
+    border: 0 none;
+    height: auto;
+    line-height: normal;
+    margin: 0;
+    text-decoration: none;
+}
+.outer-link:hover{
+    color: #ff6700;
+}
+.other-login-option-title
+{
+    border-top: 1px solid #e0e0e0;
+    margin-top: 50px;
+padding-top: 10px;
+border-bottom: 0;
+border-left: 0;
+border-right: 0;
+}
+.olo-title{
+    color: #bbb;
+    font-size: 14px;
+color: #b0b0b0;
+margin: 0 auto;
+text-align: center;
+}
+.other-login-option-iconfonts a{
+    text-decoration: none;
+}
+.other-login-option-iconfonts i{
+    font-size: 40px;
+    margin-left: 30px;
+}
+.iconfont-one{
+    color: rgb(63, 72, 190);
+}
+.iconfont-two{
+ color: red;   
+}
+.iconfont-three{
+    color: rgb(83, 200, 247);
+}
+.iconfont-four{
+    color: rgb(5, 155, 5);
+}
+.foot-content{
+    background: #fff;
+margin-top: 0;
+padding-top: 100px;
+position: relative;
+z-index: 4;
+height: 80px;
+margin-top: -80px;
+text-align: center;
+}
+.first-line-lists{
+    list-style-type: none;
+    /* float: left; */
+    color: #757575;
+}
+.list{
+display: inline-block;
+    margin-left: 10px;
+    /* padding-left: 5px; */
+}
+.a-content{
+    text-decoration: none;
+    color: #757575;
+}
+.a-content:hover{
+    color: black;
+}
+.last-line a{
+    text-decoration: none;
+    color: #757575;
+}
+.last-line{
+    
+    color: #757575;
+}
